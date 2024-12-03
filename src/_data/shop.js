@@ -1,111 +1,78 @@
-export const clothing = [
+export const outdoors = [
     {
         id:1,
-        nome:"Beanie Popped",
-        valor: 30,
-        cor: "Black",
-        img:  "https://i.ibb.co/jM5qtk6/Beanie-Mockup-Front-and-Back-View-1.png"
+        descricao: "Outdoor Popped Original",
+        url:"https://res.cloudinary.com/ddn9jle3r/image/upload/v1/media/images/8663f90b-0d1a-4ee1-ac5c-78d07e68a86c_ae0ure"
     },
     {
         id:2,
-        nome:"Beanie Popped",
-        valor: 30,
-        cor: "White",
-        img:"https://i.ibb.co/nDvsB8Y/Beanie-Mockup-Front-and-Back-View-1-d.png"
-    },  
+        descricao: "Outdoor Popped Forget",
+        url:"https://res.cloudinary.com/ddn9jle3r/image/upload/v1/media/images/4a8052cb-e5bf-4a2f-b25c-b6bee8ce2f33_vsgszo"
+    },
     {
         id:3,
-        nome:"Cap Popped",
-        valor: 20,
-        cor: "White",
-        img: "https://i.ibb.co/2ygYvT2/Cap-Mockup-Front-And-Back-View-UV.png"
+        descricao: "Outdoor Popped Pineapple and Orange",
+        url:"https://res.cloudinary.com/ddn9jle3r/image/upload/v1/media/images/4be2e581-d160-489a-84b9-d3d63eee74cf_vdfai5"
     },
     {
         id:4,
-        nome:"Hoodie Popped",
-        valor: 130,
-        cor: "White",
-        img:"https://i.ibb.co/9GFfVsB/Men-Hoodie-Mockup-Front-View.png"
+        descricao: "Outdoor Popped Energy Drink",
+        url: "https://res.cloudinary.com/ddn9jle3r/image/upload/v1/media/images/dfaa55b2-8fee-4335-8dd6-deb3f60fa3d2_u0qhg3"
+    }
+
+
+]
+export const flavors = [
+    {
+        id:1,
+        descricao: "Original",
+        url: "https://res.cloudinary.com/ddn9jle3r/image/upload/v1/media/images/62de3d9a-bc58-4a54-8f41-a49c57b65fb5_xojszf"
     },
     {
-        id:5,
-        nome:"Hoodie Popped",
-        valor: 130,
-        cor: "Black",
-        img: "https://i.ibb.co/543kVD1/Men-Hoodie-Mockup-Front-View-1.png" 
-    },{
-
-        id:6,
-        nome:"T-Shirt PoppedBoy",
-        valor: 70,
-        cor: "Black",
-        img: "https://i.ibb.co/4tYK6kQ/Men-T-Shirt-Mockup-Front-View-2.png" 
-    },{
-
-        id:7,
-        nome:"T-Shirt PoppedBoy",
-        valor: 70,
-        cor: "White",
-        img: "https://i.ibb.co/HdXbfWz/Men-T-Shirt-Mockup-Front-View-3.png" 
-    },{
-
-        id:8,
-        nome:"Nike Air Force 1 (Especial Edition Popped)",
-        valor: 200,
-        cor: "White",
-        img: "https://i.ibb.co/KhGtvY2/Nike-Air-Force-1-Mockup-Poster.png"
+        id:2,
+        descricao: "Forget",
+        url:  "https://res.cloudinary.com/ddn9jle3r/image/upload/v1/media/images/0b7f3f0e-f226-427a-9ed3-95610d128bb9_zahl71"
+    },
+    {
+        id:3,
+        descricao: "Orange and Pineapple",
+        url:"https://res.cloudinary.com/ddn9jle3r/image/upload/v1/media/images/19586b6e-a1f0-49da-93dd-04c716dba313_vmjz6y"
+    },
+    {
+        id:4,
+        descricao: "Energy Drink",
+        url:"https://res.cloudinary.com/ddn9jle3r/image/upload/v1/media/images/e8a0ebfe-ef59-49da-8b16-86744e1233b3_mhsybw"
     }
+
     
-
-
 ]
 
-export const cups = [
-    {
-        id:1,
-        nome:"Mug Popped",
-        valor: 10,
-        cor: "White",
-        img: "https://i.ibb.co/PWRsH7L/Mug-Mockup-Front-View.png"
-    },
-    {
-        id:2,
-        nome:"Mug Popped",
-        valor: 10,
-        cor: "Black",
-        img: "https://i.ibb.co/zPGcj4N/Mug-Mockup-Front-View-1.png" 
+export const bolinha = [
+{
+    id:1,
+    url: "https://res.cloudinary.com/ddn9jle3r/image/upload/v1732019134/media/images/48ecced8-2b31-46f3-92e8-21e979e9908c_ehfcdf.png",
 
-    },
-    {
-        id:3,
-        nome:"Paper Cup Popped",
-        valor: 2,
-        cor: "White",
-        img: "https://i.ibb.co/RjxWdjY/Paper-Cups-Mockup.png" 
-        
-    }
+}
 ]
-export const bags = [
-    {
-        id:1,
-        nome:"Tote Bag PoppedBoy",
-        valor: 12,
-        cor: "White",
-        img: "https://i.ibb.co/8r5VcWY/Tote-Bag-Mockup-Front-View.png" 
-    },
-     {
-        id:2,
-        nome:"Tote Bags Popped ",
-        valor: 12,
-        cor: "White and Black",
-        img: "https://i.ibb.co/z6mDzhk/Tote-Bags-Mockup-Falling-1.png"
-    }
-    ,
-     {
-        id:3,
-        nome:"Shopping Bags Popped ",
-        valor: 7,
-        cor: "White",
-        img: "https://i.ibb.co/ZWJGZDL/Shopping-Bags-Mockup.png" 
-    }
+export const discoveries = [
+{
+    id:1,
+    descricao: "Eduardo Gabriel",
+    url: "https://res.cloudinary.com/ddn9jle3r/image/upload/v1732019134/media/images/48ecced8-2b31-46f3-92e8-21e979e9908c_ehfcdf.png",
+},
+{
+    id:2,
+    descricao: "Rafael de França",
+    url: "https://res.cloudinary.com/ddn9jle3r/image/upload/v1732019134/media/images/48ecced8-2b31-46f3-92e8-21e979e9908c_ehfcdf.png",
+},
+{
+    id:3,
+    descricao: "Leandro Gustavo",
+    url: "https://res.cloudinary.com/ddn9jle3r/image/upload/v1732019134/media/images/48ecced8-2b31-46f3-92e8-21e979e9908c_ehfcdf.png",
+},
+{
+    id:4,
+    descricao: "Ana Sofia",
+    url: "https://res.cloudinary.com/ddn9jle3r/image/upload/v1732019134/media/images/48ecced8-2b31-46f3-92e8-21e979e9908c_ehfcdf.png",
+}
 ]
